@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,a as r}from"./app.79b9e583.js";const m='{"title":"Backend","description":"","frontmatter":{},"headers":[],"relativePath":"workflows/backend/index.md"}',o={name:"workflows/backend/index.md"},c=r("",4),i=[c];function n(s,d,_,l,h,f){return t(),a("div",null,i)}var k=e(o,[["render",n]]);export{m as __pageData,k as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as r,a as t}from"./app.79b9e583.js";const m='{"title":"Frontend","description":"","frontmatter":{},"headers":[],"relativePath":"views/frontend/index.md"}',n={name:"views/frontend/index.md"},o=t("",5),s=[o];function i(d,_,l,c,p,f){return r(),a("div",null,s)}var u=e(n,[["render",i]]);export{m as __pageData,u as default};

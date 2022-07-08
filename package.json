@@ -1,0 +1,28 @@
+{
+  "name": "api-docs",
+  "version": "1.0.0",
+  "description": "Shan Dictionary Documentaion",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node extendComponent.js && vitepress dev docs",
+    "no-build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haohaaorg/dictionary-api-doc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haohaaorg/dictionary-api-doc/issues"
+  },
+  "homepage": "https://github.com/haohaaorg/dictionary-api-doc#readme",
+  "devDependencies": {
+    "glob": "^8.0.3"
+  },
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.4"
+  }
+}

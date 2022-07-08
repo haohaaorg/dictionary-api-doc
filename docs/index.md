@@ -1,0 +1,29 @@
+---
+layout: home
+
+hero:
+  name: Shan Dictionary
+  text: API Documentation.
+  tagline: Shan, English, Myanmar Dictionary 
+  actions:
+    - theme: brand
+      text: Get Started
+      link: "#features"
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/haohaaorg/dictionary-api-doc
+
+features:
+  - title: Shan to English (16822 words)
+    details: Shan to English API documentation  (မွၼ်းၶမ်း dictionary)
+    link: /shn-to-eng/
+  - title: Shan to Shan (19865 words)
+    details: Shan to Shan API documentation (SIIT, ၸဝ်ႈသြႃႇသုၶမ်း, Wiktionary)
+    link: /shn-to-shn/
+  - title: English to Shan (19844 word)
+    details: English to Shan API documentation (ၸၢႆးၸွမ်တႆး , ၸၢႆးတွင်ႉၾႃႉ , ၼေႃႇသႅင်ၾႃႉ)
+    link: /eng-to-shn/
+  - title: Shan to Myanmar (3205 words)
+    details: Shan to Myanmar API documentation (ၸၢႆးၸွမ်တႆး , ၸၢႆးထုၼ်းၵျေႃႇ , Shan Unicode Team)
+    link: /shn-to-mya/
+---
