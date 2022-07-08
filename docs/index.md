@@ -15,7 +15,7 @@ hero:
 
 features:
   - title: Shan to English (16822 words)
-    details: Shan to English API documentation  (မွၼ်းၶမ်း dictionary)
+    details: Shan to English API documentation  (မွၼ်းၶိူဝ်းdictionary)
     link: /shn-to-eng/
   - title: Shan to Shan (19865 words)
     details: Shan to Shan API documentation (SIIT, ၸဝ်ႈသြႃႇသုၶမ်း, Wiktionary)
