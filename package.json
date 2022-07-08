@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node extendComponent.js && vitepress dev docs",
-    "no-build": "vitepress build docs",
+    "build": "vitepress build docs",
     "serve": "vitepress serve docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

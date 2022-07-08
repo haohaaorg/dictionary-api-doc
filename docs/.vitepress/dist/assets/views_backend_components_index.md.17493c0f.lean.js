@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,a as o}from"./app.79b9e583.js";const f='{"title":"components","description":"","frontmatter":{},"headers":[],"relativePath":"views/backend/components/index.md"}',i={name:"views/backend/components/index.md"},n=o("",4),r=[n];function l(c,s,d,h,p,_){return t(),a("div",null,r)}var b=e(i,[["render",l]]);export{f as __pageData,b as default};

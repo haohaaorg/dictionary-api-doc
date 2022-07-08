@@ -1,1 +1,0 @@
-import{_ as e,c as i,o as a,a as r}from"./app.79b9e583.js";const f='{"title":"Developer Guidelines","description":"","frontmatter":{},"headers":[],"relativePath":"developer-guidelines/index.md"}',d={name:"developer-guidelines/index.md"},t=r("",4),n=[t];function o(l,s,_,c,p,h){return a(),i("div",null,n)}var g=e(d,[["render",o]]);export{f as __pageData,g as default};

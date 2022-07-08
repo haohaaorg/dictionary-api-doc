@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as r,a as o}from"./app.79b9e583.js";const k='{"title":"Workflow","description":"","frontmatter":{},"headers":[{"level":2,"title":"Backend","slug":"backend"}],"relativePath":"workflows/index.md"}',t={name:"workflows/index.md"},n=o("",5),d=[n];function c(s,_,i,h,l,f){return r(),a("div",null,d)}var w=e(t,[["render",c]]);export{k as __pageData,w as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,a as r}from"./app.79b9e583.js";const f='{"title":"Backend","description":"","frontmatter":{},"headers":[],"relativePath":"views/backend/index.md"}',n={name:"views/backend/index.md"},i=r("",5),c=[i];function s(d,o,_,l,p,h){return t(),a("div",null,c)}var u=e(n,[["render",s]]);export{f as __pageData,u as default};
