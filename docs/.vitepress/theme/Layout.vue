@@ -54,8 +54,10 @@ html {
     --vp-button-brand-active-bg:#00cbea;
     --vp-button-brand-hover-border:#009cea;
     --vp-button-brand-hover-bg:#009cea;
-
+    --vp-c-brand:#00aaff;
+    --vp-c-brand-dark:#009cea;
 }
+
 .VPFeatures .items .item a{
     color:var(--vp-home-hero-name-color);
 }

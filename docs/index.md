@@ -7,10 +7,10 @@ hero:
   tagline: Shan, English, Myanmar Dictionary 
   actions:
     - theme: brand
-      text: Get Started
+      text: တႄႇၸၢမ်းတူၺ်း
       link: "#features"
     - theme: alt
-      text: View on GitHub
+      text: GitHub ႁဝ်းၶႃႈ
       link: https://github.com/haohaaorg/dictionary-api-doc
 
 features:

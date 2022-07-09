@@ -1,3 +1,6 @@
+[Home](/) / [Shan to English API](/shn-to-eng/index) / Get Request
+
+------
 # Get Request 
 
 ## Exact Match
@@ -11,9 +14,33 @@ Exact Match ၼႆႉတႄႉပေႃးႁႃ တူဝ်လႆတူဝ်�
 
 #### Request
 
-```
+::: danger ၾၢင်ႉ
 
-https://api.shanlang.org/api/collections/entries/shn2eng?filter[word]=ၵႃလမ်&token=<api_token>
+ပေႃးယိုဝ်း API မၼ်းတၢင်း token ၼၼ်ႉပေႃးပဵၼ်လႆႈယႃႇသႂ်ႇၼႂ်း URL မိူၼ်ၼင်ႇဝႃႈ 
+
+`https://api.shandictionary.com/api/collections/entries/shn2eng?filter[word]=ၵႃလမ်&token=api_token_key_is_here`
+
+ၸိူင်ႉၼႆၶႃႈ
+ၶႅၼ်းတေႃႈ ယိုဝ်းတၢင်း request header ဢဝ်ၶႃႈ
+
+e.g 
+
+```
+{
+    header:{
+        'Content-Type':'application/json',
+        'Cockpit-Token':'api_token_key_is_here'
+    }
+}
+```
+:::
+
+```
+// Server 1
+https://api.shandictionary.com/api/collections/entries/shn2eng?filter[word]=ၵႃလမ်
+
+// Server 2
+https://api.shanlang.org/api/collections/entries/shn2eng?filter[word]=ၵႃလမ်
 
 ```
 
@@ -74,12 +101,12 @@ Full Text Search ၼႆႉမိူၼ်ၼင်ႇ user ပေႃႉမႃး
 `ၵႃလမ်` , `ၵႃႈ` , `ၵႃး` , `တၢင်းၵႃႈ` ၸိူဝ်းၼႆႉၶႃႈ 
 
 
-::: danger
+::: danger ၾၢင်ႉ
 လၢႆးၼႆႉဢမ်ႇပေႃးပၼ်ႁႅင်းၶႃႈ ၵွပ်ႈယွၼ်ႉမၼ်းၵိၼ် server resource ႁဝ်းၼမ်ၼႃႇလႄႈ ပေႃးပဵၼ်လႆႈႁႃတၢင်းပဵၼ်တူဝ်မႅၼ်ႈမႅၼ်ႈ [Exact Match](#exact-match) မိူၼ်တၢင်းၼိူဝ်ၼၼ်ႉတႄႉတေလီၶႃႈ 
 :::
 
-::: tip
-ပေႃးၸိူင်ႉၼၼ်တေလႆႈႁဵတ်းႁိုဝ်ႁႃ full text search ၼၼ်ႉလႃႇၼႆႇလူတ်ႇလူင်း [words.json](words.json) ၼႆႉသေ ႁဵၼ်းမိူၼ်ၼင်ႇ autocomplete တီႈ client side ၼၼ်ႉယဝ်ႉၸင်ယိုဝ်းမႃး API တႄႉတေလီၶႃႈ ၼၼ်ႉၼႆ server resource api ႁဝ်းမၼ်းတေဢမ်ႇပေႃးၵိၼ်ၼမ်ၶႃႈ
+::: tip မၢႆတွင်း
+ပေႃးၸိူင်ႉၼၼ်တေလႆႈႁဵတ်းႁိုဝ်ႁႃ full text search ၼၼ်ႉလႃႇၼႆႇလူတ်ႇလူင်း [words.json](https://github.com/haohaaorg/haohaa-assets/blob/master/words.json) ၼႆႉသေ ႁဵၼ်းမိူၼ်ၼင်ႇ autocomplete တီႈ client side ၼၼ်ႉယဝ်ႉၸင်ယိုဝ်းမႃး API တႄႉတေလီၶႃႈ ၼၼ်ႉၼႆ server resource api ႁဝ်းမၼ်းတေဢမ်ႇပေႃးၵိၼ်ၼမ်ၶႃႈ
 :::
 
 #### Parameters
@@ -90,8 +117,11 @@ Full Text Search ၼႆႉမိူၼ်ၼင်ႇ user ပေႃႉမႃး
 #### Request
 
 ```
+// Server 1
+https://api.shandictionary.com/api/collections/entries/shn2eng?filter[word][$regex]=ၵႃ
 
-https://api.shanlang.org/api/collections/entries/shn2eng?filter[word][$regex]=ၵႃ&token=<api_token>
+// Server 2
+https://api.shanlang.org/api/collections/entries/shn2eng?filter[word][$regex]=ၵႃ
 
 ```
 

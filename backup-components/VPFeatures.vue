@@ -45,6 +45,7 @@ const grid = computed(() => {
         </div>
       </div>
     </div>
+    <div id="fetaures"></div>
   </div>
 </template>
 
