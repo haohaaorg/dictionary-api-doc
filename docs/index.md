@@ -26,4 +26,7 @@ features:
   - title: Shan to Myanmar (3205 words)
     details: Shan to Myanmar API documentation (ၸၢႆးသုၼ်ယုၵ်ႉ ၊ ၸၢႆးၼုမ်ႇၶိူဝ်း - ၵႂၢမ်းတႅတ်ႈတႆး, ၸၢႆးထုၼ်းၵျေႃႇ , Shan Unicode Team)
     link: /shn-to-mya/
+  - title: Report Data Issues
+    details: API တႃႇထႅမ် ၶေႃႈမုၼ်း ဢၼ်ၽိတ်းပိူင်ႈၸိူဝ်းၼၼ်ႉ၊ တႃႇ developer ၶဝ်တေမေးၶိုၼ်းလႆႈ
+    link: /report/
 ---

@@ -7,17 +7,10 @@ module.exports = {
     themeConfig: {
         logo: '/logo.svg',
         siteTitle: false,
-        // nav: [
-        //     { text: 'Guide', link: '/guide' },
-        //     {
-        //         text: 'Dropdown Menu',
-        //         items: [
-        //             { text: 'Item A', link: '/item-1' },
-        //             { text: 'Item B', link: '/item-2' },
-        //             { text: 'Item C', link: '/item-3' }
-        //         ]
-        //     }
-        // ],
+        nav: [
+            { text: 'Shan Dictionary', link: 'https://shandictionary.com' },
+            { text: 'ထႅမ်ၸွႆႈၶေႃႈမုၼ်း', link: '/contribution-guide' }
+        ],
         socialLinks: [
             { icon: 'github', link: 'https://github.com/haohaaorg/dictionary-api-doc' },
             { icon: 'twitter', link: 'https://twitter.com' },
